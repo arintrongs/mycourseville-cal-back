@@ -49,7 +49,6 @@ app.post('/auth/verify', async (req, res) => {
 })
 app.post('/access_token', async (req, res) => {
   const code = req.body.code
-
   try {
     const { data: auth_obj } = await axios.post('https://mycourseville.com/api/oauth/access_token', {
       grant_type: 'authorization_code',
