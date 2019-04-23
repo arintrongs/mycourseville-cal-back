@@ -6,12 +6,3 @@ exports.sign = token => {
 exports.verify = token => {
   return jwt.verify(token, process.env.JWT_SECRET)
 }
-
-// Firebase
-
-// exports.sign = token => {
-//   return jwt.sign(token, 'KonoDioDa!!!', { expiresIn: 60 * 60 * 24 * 30 })
-// }
-// exports.verify = token => {
-//   return jwt.verify(token, 'KonoDioDa!!!')
-// }

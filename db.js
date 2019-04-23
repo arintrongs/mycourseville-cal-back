@@ -6,7 +6,3 @@ mongoose.connect(
   }@cluster0-bttsk.mongodb.net/test?retryWrites=true`,
   { useNewUrlParser: true }
 )
-
-// mongoose.connect(`mongodb+srv://enigmaxz:pantaraT1@cluster0-bttsk.mongodb.net/test?retryWrites=true`, {
-//   useNewUrlParser: true
-// })
